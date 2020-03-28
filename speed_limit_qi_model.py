@@ -131,27 +131,3 @@ pyplot.legend()
 
 
 
-#explained_variance_score(classifier_tree.predict(x_valid),y_valid)
-#sklearn.metrics.roc_auc_score(classifier_tree.predict(x_valid),y_valid)
-
-#print(tree.export_graphviz(classifier_tree, None))
-
-#classifier_tree  =  RandomForestClassifier(random_state=0)
-
-
-#from sklearn.preprocessing import OneHotEncoder
-
-#        temp = multi_model_df_full[columns].values
-#        temp = temp.reshape(len(temp), 1)
-#        onehot_encoder = OneHotEncoder(sparse=False)        
-#        onehot_encoded = onehot_encoder.fit_transform(temp)
-#        #foo  = multi_model_df_full.groupby([columns], as_index=False).count()
-#        enc.fit_transform(multi_model_df_full[columns].values)
-#        #multi_model_df_full[columns] = multi_model_df_full[columns].astype('category')
-
-
-
-#def getMCW_SL(shorts, attrib = "MCW_sl"):
-#    filtered_by_city = relevant_routes[[ (a in shorts) for a in relevant_routes.Short ]]
-#    pass 
-
